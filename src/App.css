@@ -1,0 +1,111 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.App{
+  margin: 5px;
+  padding: 10px;
+  background-image: url(https://i.stack.imgur.com/wvNCf.png);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  height: 700px;
+  background-repeat:no-repeat ;
+  background-size: contain;
+  background-position: center;
+  border: none;
+  background-origin: content-box;
+  top: 5%;
+  position: fixed;
+  left: 35%;
+
+  }
+.App-header{
+  margin: 30px;
+  padding: 30px;
+
+  
+  
+}
+.search{
+  margin-top: 40px;
+  margin-left: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  border: none;
+  color: black;
+  outline: none;
+}
+.btn{
+  margin: 10px;
+  padding: 5px;
+  width: 70px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  
+}
+.btn:hover{
+  background-color: rgb(249, 244, 244);
+}
+
+.temperature{
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+  width: 10%;
+  margin: 1rem auto;
+  padding: 1rem auto;
+  border-radius: 12px;
+  background-color: rgba(255,255,255,0.2);
+  position: fixed;
+  top: 38%;
+  left: 44%;
+  display: block;
+}
+.temperature h3{
+   margin: 3px;
+   padding: 3px;
+}
+.location{
+  margin: 10px;
+  padding: 15px;
+}
+.humidity{
+  margin: 5px;
+  display: inline-block;
+  left: 2%;
+
+  
+
+}
+.condition{
+  margin: 5px;
+  display: inline-block;
+  left: 20%;
+
+}
+.bottom{
+  font-size: 15px;
+  display: flex;
+  justify-content:space-evenly;
+  text-align: center;
+  width: 20%;
+  margin: 1rem auto;
+  padding: 1rem auto;
+  border-radius: 12px;
+  background-color: rgba(255,255,255,0.2);
+  position: fixed;
+  bottom: 30%;
+}
+.wind{
+  margin: 5px;
+
+
+}
